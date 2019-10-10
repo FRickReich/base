@@ -6,8 +6,10 @@ A set of Node.js application templates written in Typescript.
 
 ## Templates
 
-* basic - A basic typescript Node.js application.
-* basic-webserver - A basic webserver Node.js application in typescript.
+| Title           | Location                   | Branch          | Description                                          |
+| --------------- | -------------------------- | --------------- | ---------------------------------------------------- |
+| Basic           | /templates/basic           | basic           | A basic typescript Node.js application.              |
+| Basic Webserver | /templates/basic-webserver | basic-webserver | A basic webserver Node.js application in typescript. |
 
 ## License
 
