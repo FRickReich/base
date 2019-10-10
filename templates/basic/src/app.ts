@@ -1,5 +1,5 @@
 
 
-const helloWorld: string = "Hello World!";
+const helloString: string = "Hello World!";
 
-console.log(helloWorld);
+console.log(helloString);
