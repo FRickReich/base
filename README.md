@@ -2,7 +2,11 @@
 
 **Version 0.1.0**
 
-a basic nodejs application written in typescript.
+A set of Node.js application templates written in Typescript.
+
+## Templates
+
+* basic - A basic typescript Node.js application.
 
 ## License
 
