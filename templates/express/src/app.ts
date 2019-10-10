@@ -1,7 +1,11 @@
 import * as http from "http";
+import path from 'path';
 import express = require('express');
+import { config } from "dotenv"
 
-const port: number = 3000;
+config({ path: path.resolve(__dirname, "../.env") })
+
+const port: number = Number(process.env.PORT) || 3000;
 const helloString: string = "Hello World!";
 
 const app: express.Application = express();

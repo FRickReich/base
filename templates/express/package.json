@@ -1,7 +1,7 @@
 {
   "name": "base",
   "version": "0.1.0",
-  "description": "A basic nodejs application written in typescript.",
+  "description": "An express.js application template written in typescript, including basic docker-compose setup.",
   "main": "src/app.js",
   "scripts": {
     "start": "npm run build:prod && npm run start:prod",
@@ -23,7 +23,9 @@
   "homepage": "https://github.com/FRickReich/base#readme",
   "dependencies": {
     "@types/node": "^12.0.2",
+    "@types/dotenv": "^6.1.1",
     "@types/express": "^4.17.1",
+    "dotenv": "^8.1.0",
     "typescript": "^3.4.5",
     "nodemon": "^1.19.2",
     "express": "^4.17.1",
