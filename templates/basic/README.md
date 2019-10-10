@@ -1,5 +1,7 @@
 # Basic Template
 
+A basic typescript application for you to play around with.
+
 # Starting the application
 
 * `npm start` Compiles and starts the application in JavaScript.
