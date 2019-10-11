@@ -12,7 +12,7 @@ export class App
 
     private render() : void
     {
-        ReactDOM.render(React.createElement(Main, { app: this }), document.getElementById("app"));
+        ReactDOM.render(React.createElement(Main), document.getElementById("app"));
     }
 }
 
