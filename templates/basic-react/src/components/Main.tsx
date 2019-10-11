@@ -1,24 +1,36 @@
 import * as React from 'react';
 
-import { App } from './../App';
+import './../styles.css';
 
-export interface IMainProps
+interface IState
 {
-    app : App;
+    helloString : string;
 }
 
-export class Main extends React.Component<IMainProps, {}>
+interface IProps
 {
-    constructor(props: IMainProps)
+    
+}
+
+export class Main extends React.Component<IProps, IState, {}>
+{
+    constructor(props: IProps)
     {
         super(props);
+
+        this.state =
+        {
+            helloString: "Hello World!"
+        }
     }
 
     public render(): JSX.Element
     {
+        const { helloString } = this.state;
+
         return (
             <>
-                 <p>test</p>
+                 <p>{ helloString }</p>
             </>
         );
     }
