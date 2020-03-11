@@ -1,0 +1,41 @@
+.content {
+    width: 720px;
+    padding-top: 25px;
+    margin: 0 auto;
+}
+
+.DBTester {
+    padding: 10px 0;
+}
+.DBTester .label {
+    padding: 3px 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+.DBTester .label.success {
+    background: #3aa57b;
+}
+.DBTester .label.error {
+    background: #dd2515;
+}
+
+.CounterView {
+    margin-bottom: 10px;
+    padding: 5px;
+    display: block;
+    border-radius: 5px;
+    background: black;
+}
+.CounterView .content {
+    font-size: 14px;
+}
+.CounterView .content div {
+    color: white;
+    padding: 0 10px;
+    display: inline-block;
+}
+.CounterView .content .deleteMessage {
+    color: white;
+    float: right;
+}
